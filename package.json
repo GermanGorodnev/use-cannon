@@ -15,6 +15,7 @@
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist && npm run typegen",
